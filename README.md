@@ -3,17 +3,69 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Clasificación No Supervisada
 
+### Kmeans
+
 ## Clasificación Supervisada
+
+### 01 extracción de Valores
+
+### 02 Modelo
+
+### 03 Predicción
+
+### 04 Gráfico
 
 ## Composición de Imágenes
 
 ## EDA (Análisis Exploratorio de Datos)
 
+### Boxplot
+
+### Perfil Espectral
+
+### Sumario de Bandas
+
 ## Gráficos
 
+### Histogramas
+
+### Pairs
+
+### Pairs Consecutivas
+
+### Pairs Todas
+
+### Plot Bands
+
+### Plot Bands 2
+
+### Scatterplot
+
+### Scatterplot 2
+
+### Scatterplot Vector
+
+### True Color
+
 ## Índices
+
+### MNDWI
+
+### NBRI
+
+### NDMI
+
+### NDTI 
+
+### NDVIre
+
+### NDWI
 
 ## PCA
 
 ## Umbrales
+
+### OTSU
+
+### Umbrales
 
