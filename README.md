@@ -49,17 +49,15 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Índices
 
-### MNDWI
+| # | Índice | Fuente |
+| :---: | :--- | :--- | 
+| 1 | `MNDWI` | |
+| 2 | `NBRI` | |
+| 3 | `NDMI` | |
+| 4 | `NDTI` | |
+| 5 | `NDVIre` | |
+| 6 | `NDWI` | |
 
-### NBRI
-
-### NDMI
-
-### NDTI 
-
-### NDVIre
-
-### NDWI
 
 ## PCA
 
