@@ -1,3 +1,12 @@
+<!-- badges: start -->
+[![Project Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/klauswiese/QGIS-R/commits)
+![](https://visitor-badge.laobi.icu/badge?page_id=klauswiese.klauswiese/QGIS-R) 
+<!-- badges: end -->
+
+
 # QGIS-R
 Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, terra, sp y sf. Esta primera versión se enfoca en los scripst desarrollados para la clase de procesamiento y análisis digital de imágenes de la Maestría en Gestión y Ordenamiento del Territorio de la Universidad Nacional Autónoma de Honduras.
 
