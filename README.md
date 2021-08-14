@@ -64,9 +64,9 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 | :---: | :--- | :--- | :--- | 
 | 1 | `MNDWI` | Modified Normalized Difference Water Index | [Xu 2006](https://www.tandfonline.com/doi/abs/10.1080/01431160600589179) |
 | 2 | `NBRI` | Normalized Burned Ratio Index | | 
-| 3 | `NDMI` | | |
-| 4 | `NDTI` | | |
-| 5 | `NDVIre` | | |
+| 3 | `NDMI` | Normalized Difference Moisture Index | |
+| 4 | `NDTI` | Normalized Difference Turbidity Index | |
+| 5 | `NDVIre` | Red-Edge Normalized Difference Vegetation Index | |
 | 6 | `NDWI` | Normalized Difference Water Index | [Gao 1996](https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/d/1835/files/2014/06/NDWI-A-Normalized-Difference-Water-Index-for-Remote-Sensing-of-Vegetation-Liquid-Water-From-Space-1ko95nn.pdf) |
 
 
