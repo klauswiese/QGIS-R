@@ -67,7 +67,7 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 | 3 | `NDMI` | |
 | 4 | `NDTI` | |
 | 5 | `NDVIre` | |
-| 6 | `NDWI` | |
+| 6 | `NDWI` | [Gao 1996](https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/d/1835/files/2014/06/NDWI-A-Normalized-Difference-Water-Index-for-Remote-Sensing-of-Vegetation-Liquid-Water-From-Space-1ko95nn.pdf) |
 
 
 ## PCA
