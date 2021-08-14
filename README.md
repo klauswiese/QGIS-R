@@ -63,7 +63,7 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 | # | Índice | Nombre |Fuente |
 | :---: | :--- | :--- | :--- | 
 | 1 | `MNDWI` | Modified Normalized Difference Water Index | [Xu 2006](https://www.tandfonline.com/doi/abs/10.1080/01431160600589179) |
-| 2 | `NBRI` | | | 
+| 2 | `NBRI` | Normalized Burned Ratio Index | | 
 | 3 | `NDMI` | | |
 | 4 | `NDTI` | | |
 | 5 | `NDVIre` | | |
