@@ -18,17 +18,24 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Clasificación Supervisada
 
-### 01 extracción de Valores
-
-### 02 Modelo
-
-### 03 Predicción
-
-### 04 Gráfico
+| # | Función | Nombre |Fuente |
+| :---: | :--- | :--- | :--- | 
+| 1 | `01 Extracción de Valores` | |
+| 2 | `02 Modelo` | | | 
+| 3 | `03 Predicción` | | |
+| 4 | `04 Gráfico` | | |
 
 ## Composición de Imágenes
 
 ## EDA
+
+
+| # | Función | Nombre |Fuente |
+| :---: | :--- | :--- | :--- | 
+| 1 | `01 Extracción de Valores` | |
+| 2 | `02 Modelo` | | | 
+| 3 | `03 Predicción` | | |
+| 4 | `04 Gráfico` | | |
 
 ### Boxplot
 
