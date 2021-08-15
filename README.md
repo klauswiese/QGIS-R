@@ -66,7 +66,7 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Umbrales
 
-### OTSU
-
-### Umbrales
-
+| # | Función | Nombre |Fuente |
+| :---: | :--- | :--- | :--- | 
+| 1 | `OTSU` | |
+| 2 | `Umbrales` | | | 
