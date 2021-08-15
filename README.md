@@ -32,16 +32,9 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 | # | Función | Nombre |Fuente |
 | :---: | :--- | :--- | :--- | 
-| 1 | `01 Extracción de Valores` | |
-| 2 | `02 Modelo` | | | 
-| 3 | `03 Predicción` | | |
-| 4 | `04 Gráfico` | | |
-
-### Boxplot
-
-### Perfil Espectral
-
-### Sumario de Bandas
+| 1 | `Boxplot` | |
+| 2 | `Perfil Espectral` | | | 
+| 3 | `Sumario de Bandas` | | |
 
 ## Gráficos
 
