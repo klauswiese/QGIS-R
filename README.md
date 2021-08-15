@@ -42,19 +42,13 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 | 1 | `Histogramas` | |
 | 2 | `Pairs` | | | 
 | 3 | `Pairs Consecutivas` | | |
-| 1 | `Pairs Todas` | |
-| 2 | `Plot Bands` | | | 
-| 3 | `Plot Bands 2` | | |
-
-
-
-### Scatterplot
-
-### Scatterplot 2
-
-### Scatterplot Vector
-
-### True Color
+| 4 | `Pairs Todas` | |
+| 5 | `Plot Bands` | | | 
+| 6 | `Plot Bands 2` | | |
+| 7 | `Scatterplot` | | |
+| 8 | `Scatterplot 2` | |
+| 9 | `Scatterplot Vector` | | | 
+| 10 | `True Color` | | |
 
 ## Índices
 
