@@ -29,7 +29,6 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## EDA
 
-
 | # | Función | Nombre |Fuente |
 | :---: | :--- | :--- | :--- | 
 | 1 | `Boxplot` | |
@@ -38,17 +37,16 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Gráficos
 
-### Histogramas
+| # | Función | Nombre |Fuente |
+| :---: | :--- | :--- | :--- | 
+| 1 | `Histogramas` | |
+| 2 | `Pairs` | | | 
+| 3 | `Pairs Consecutivas` | | |
+| 1 | `Pairs Todas` | |
+| 2 | `Plot Bands` | | | 
+| 3 | `Plot Bands 2` | | |
 
-### Pairs
 
-### Pairs Consecutivas
-
-### Pairs Todas
-
-### Plot Bands
-
-### Plot Bands 2
 
 ### Scatterplot
 
