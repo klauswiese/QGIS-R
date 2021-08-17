@@ -20,7 +20,7 @@ TablaUsos<-merge(Salida, Vector, x.by="ID", by.y="ID")
 #Rasterizar
 EntrenamientoRaster <- rasterize(Vector, Imagen[[1]], field=Codigo)
 
-#CoVariables
+#CoVariables cortadas
 Covariables <- mask(Imagen, EntrenamientoRaster)
 
 #Training Brick
