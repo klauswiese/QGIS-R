@@ -10,16 +10,16 @@ Vector$ID<-row.names(Vector)
 TablaUsos<-merge(Salida, Vector, x.by="ID", by.y="ID")
 
 #Rasterizar
-EntrenamientoRaster <- rasterize(Vector, Imagen[[1]], field=Codigo)
+EntrenamientoRaster <- raster::rasterize(Vector, Imagen[[1]], field=Codigo)
 
 #CoVariables
-Covariables <- mask(Imagen, EntrenamientoRaster)
+Covariables <- raster::mask(Imagen, EntrenamientoRaster)
 
 #Training Brick
-Trainingbrick <- addLayer(Covariables, EntrenamientoRaster)
+Trainingbrick <- raster::addLayer(Covariables, EntrenamientoRaster)
 
 #Extraer todos los valores en una matriz
-valuetable<- getValues(Trainingbrick)
+valuetable<- raster::getValues(Trainingbrick)
 #Convertir a data frame
 valuetable <- as.data.frame(valuetable)
 #Eliminar los na
@@ -36,4 +36,4 @@ modelRF <- randomForest(x = ValueTable[ ,c(1:(dim(ValueTable)[2] - 1))], y=facto
                         importance = TRUE, type="classification")
 
 
-Clasificacion <- predict(Imagen, model = modelRF, na.rm = TRUE)
+Clasificacion <- raster::predict(Imagen, model = modelRF, na.rm = TRUE)
