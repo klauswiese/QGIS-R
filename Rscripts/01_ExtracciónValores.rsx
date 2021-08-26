@@ -18,16 +18,16 @@ Vector$ID<-row.names(Vector)
 TablaUsos<-merge(Salida, Vector, x.by="ID", by.y="ID")
 
 #Rasterizar
-EntrenamientoRaster <- rasterize(Vector, Imagen[[1]], field=Codigo)
+EntrenamientoRaster <- raster::rasterize(Vector, Imagen[[1]], field=Codigo)
 
 #CoVariables cortadas
-Covariables <- mask(Imagen, EntrenamientoRaster)
+Covariables <- raster::mask(Imagen, EntrenamientoRaster)
 
 #Training Brick
-Trainingbrick <- addLayer(Covariables, EntrenamientoRaster)
+Trainingbrick <- raster::addLayer(Covariables, EntrenamientoRaster)
 
 #Extraer todos los valores en una matriz
-valuetable<- getValues(Trainingbrick)
+valuetable<- raster::getValues(Trainingbrick)
 #Convertir a data frame
 valuetable <- as.data.frame(valuetable)
 #Eliminar los na
