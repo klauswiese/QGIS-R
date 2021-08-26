@@ -4,5 +4,6 @@
 ##Valor1=number
 ##ImagenUmbral= output raster
 ##showplots
+library(raster)
 ImagenUmbral <- reclassify(Imagen[[Banda]], cbind(-Inf, Valor1,NA))
 plot(ImagenUmbral)
