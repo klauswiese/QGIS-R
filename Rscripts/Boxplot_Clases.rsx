@@ -15,14 +15,14 @@ ptsamp$class <- class[[Campo]]
 Salida<-extract(Imagen, ptsamp)
 
 ms <- aggregate(Salida,list(ptsamp$class),mean)
-# instead of the first column, we use row names
+#Usar row names en lugar de la primera columna
 rownames(ms) <- ms[,1]
 Media_Usos <- ms[,-1]
 Media_Usos
 
 
 
-#transform ms from a data.frame to a matrix
+#transformar ms de data frame a matrix
 ms <-as.matrix(Media_Usos)
 # Crear espacio de gráfico vacio
 plot(0, ylim=c(0,max(Media_Usos)), xlim =c(0,dim(Media_Usos)[2]), type='n', xlab="Bandas", ylab = "Reflectividad")# 
