@@ -24,15 +24,15 @@ Media_Usos
 
 #transform ms from a data.frame to a matrix
 ms <-as.matrix(Media_Usos)
-# First create an empty plot
+# Crear espacio de gráfico vacio
 plot(0, ylim=c(0,max(Media_Usos)), xlim =c(0,dim(Media_Usos)[2]), type='n', xlab="Bandas", ylab = "Reflectividad")# 
-# add the different classes
+# AGrgar las diferentes clases
 for(i in 1:nrow(ms)){
   lines(ms[i,], type = "l", lwd = 3, lty = 1, col=i)
   }
-# Title
+# Título
 title(main="Perfil Espectral", font.main = 2)
-# Legend
+# Leyenda
 legend("topleft",rownames(ms),cex=0.8, col=c(1:nrow(ms)), lty = 1, lwd =3, bty = "n")
 
 
@@ -45,7 +45,7 @@ ptsamp$class <- class[[Campo]]
 Salida<-extract(Imagen, ptsamp)
 
 ms <- aggregate(Salida,list(ptsamp$class),mean)
-# instead of the first column, we use row names
+# Usar row names en lugar de la primera columna
 rownames(ms) <- ms[,1]
 Media_Usos <- ms[,-1]
 Media_Usos
