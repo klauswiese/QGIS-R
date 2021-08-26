@@ -26,7 +26,7 @@ Media_Usos
 ms <-as.matrix(Media_Usos)
 # Crear espacio de gráfico vacio
 plot(0, ylim=c(0,max(Media_Usos)), xlim =c(0,dim(Media_Usos)[2]), type='n', xlab="Bandas", ylab = "Reflectividad")# 
-# AGrgar las diferentes clases
+# Agregar las diferentes clases
 for(i in 1:nrow(ms)){
   lines(ms[i,], type = "l", lwd = 3, lty = 1, col=i)
   }
@@ -50,17 +50,18 @@ rownames(ms) <- ms[,1]
 Media_Usos <- ms[,-1]
 Media_Usos
 
-#transform ms from a data.frame to a matrix
+
+#transformar ms de data frame a matrix
 ms <-as.matrix(Media_Usos)
-# First create an empty plot
+# Crear espacio de gráfico vacio
 plot(0, ylim=c(0,max(Media_Usos)), xlim =c(0,dim(Media_Usos)[2]), type='n', xlab="Bandas", ylab = "Reflectividad")# 
-# add the different classes
+# Agregar las diferentes clases
 for(i in 1:nrow(ms)){
   lines(ms[i,], type = "l", lwd = 3, lty = 1, col=i)
   }
-# Title
+# Título
 title(main="Perfil Espectral", font.main = 2)
-# Legend
+# Leyenda
 legend("topleft",rownames(ms),cex=0.8, col=c(1:nrow(ms)), lty = 1, lwd =3, bty = "n")
 }
 
