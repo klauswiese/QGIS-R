@@ -6,6 +6,10 @@
 ##showplots
 
 NDWI <- (Imagen[[VERDE]]-Imagen[[NIR]])/(Imagen[[VERDE]] + Imagen[[NIR]])
-plot(NDWI, main="NDWI", xlab="X", ylab="Y")
+plot(NDWI, 
+     main="NDWI", 
+     xlab="X", 
+     ylab="Y")
 box()
-grid(col="black", lwd=1)
+grid(col="black", 
+     lwd=1)
