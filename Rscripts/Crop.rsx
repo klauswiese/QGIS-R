@@ -2,5 +2,5 @@
 ##Imagen=raster
 ##Vector=vector
 ##Corte=output raster
-Corte <- crop(Imagen, Vector)
+Corte <- raster::crop(Imagen, Vector)
 Corte
