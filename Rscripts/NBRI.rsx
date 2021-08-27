@@ -5,5 +5,7 @@
 ##NBRI=output raster
 ##showplots
 
-NBRI <- raster::overlay(Imagen[[NIR]], Imagen[[SWIR2]], fun=function(x,y){(x-y)/(x+y)})
+NBRI <- raster::overlay(Imagen[[NIR]], 
+                        Imagen[[SWIR2]], 
+                        fun=function(x,y){(x-y)/(x+y)})
 plot(NBRI)
