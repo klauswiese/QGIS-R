@@ -4,6 +4,7 @@
 ##SWIR2=number 10
 ##NDMI=output raster
 ##showplots
+library(raster)
 
 NDMIsentinel <- function(NIR, SWIR11){
   fNDMI <- function(x,y){(x-y)/(x+y)}
