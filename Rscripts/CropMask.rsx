@@ -2,6 +2,6 @@
 ##Imagen=raster
 ##Vector=vector
 ##Mascara=output raster
-Mascara <- crop(Imagen, Vector)
-Mascara <- mask(Imagen, Vector)
+Mascara <- raster::crop(Imagen, Vector)
+Mascara <- raster::mask(Imagen, Vector)
 Mascara
