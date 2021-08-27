@@ -5,5 +5,7 @@
 ##NDVIre=output raster
 ##showplots
 
-NDVIre <- raster::overlay(Imagen[[RedEdge]], Imagen[[Red]], fun=function(x,y){(x-y)/(x+y)})
+NDVIre <- raster::overlay(Imagen[[RedEdge]], 
+                          Imagen[[Red]], 
+                          fun=function(x,y){(x-y)/(x+y)})
 plot(NDVIre)
