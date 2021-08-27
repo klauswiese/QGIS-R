@@ -22,9 +22,16 @@ otsu <- (mids[maxi[1]] + mids[maxi[length(maxi)]])/2
 
 print(otsu)
 
-hist(as.matrix(na.omit(Imagen[[Banda]])),xlab=names(Imagen[[Banda]]),ylab="Frecuencia", col="red", 
-main=paste("Distribución ", names(Imagen[[Banda]]), sep=""))
-abline(v=otsu, col="black", lwd=1, lty=2)
+hist(as.matrix(na.omit(Imagen[[Banda]])),
+     xlab=names(Imagen[[Banda]]),
+     ylab="Frecuencia", 
+     col="red", 
+main=paste("Distribución ", 
+           names(Imagen[[Banda]]), 
+           sep=""))
+abline(v=otsu, 
+       col="black", 
+       lwd=1, lty=2)
 box()
 grid(lwd=1)
 
