@@ -4,8 +4,9 @@
 ##Muestra=number 500
 ##PCA=output raster
 ##showplots
+library(raster)
 
-sr <- sampleRandom(Imagen[[1:UltimaBanda]], Muestra)
+sr <- sampleRandom(Imagen[[1:UltimaBanda]], Muestra)#Paquete de sampleRandom
 pca <- prcomp(sr, scale =TRUE)
 screeplot(pca)
 
