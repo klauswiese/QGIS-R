@@ -5,5 +5,7 @@
 ##MNDWI=output raster
 ##showplots
 
-MNDWI <- raster::overlay(Imagen[[Green]], Imagen[[SWIR1]], fun=function(x,y){(x-y)/(x+y)})
+MNDWI <- raster::overlay(Imagen[[Green]], 
+                         Imagen[[SWIR1]], 
+                         fun=function(x,y){(x-y)/(x+y)})
 plot(MNDWI)
