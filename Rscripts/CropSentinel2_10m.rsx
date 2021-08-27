@@ -15,13 +15,13 @@ Imagen <- list.files(pattern = "L2A", full.names = TRUE)
 Sentinela <- readSentinel2(Imagen)
 metaSentinela <- readSentinel2Meta(Imagen)
 metaSentinela
+
 #Separar según resolución espacial
 Sentinela10 <- Sentinela@TenRes
 Sentinela20 <- Sentinela@TwentyRes
 
 #Cortar cada brick
 Sentinela10m <- crop(Sentinela10, AOI)
-
 
 #Stack de todas las imágenes
 names(Sentinela10m) <- c("B2_BLUE", "B3_GREEN", "B4_RED", "B8_NIR")
