@@ -7,7 +7,8 @@
 library(ggplot2)
 
 DF <- ggplot(NULL, aes(x= Layer[[Data]])) +
-      geom_histogram(fill= "red", colour= "black") +
+      geom_histogram(fill= "red", 
+                     colour= "black") +
       labs(x = Data_Name)
 
 plot(DF)
