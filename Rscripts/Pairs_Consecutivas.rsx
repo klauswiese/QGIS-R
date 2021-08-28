@@ -4,4 +4,5 @@
 ##Hasta=number
 ##Título=string Título_Gráfico
 ##showplots
+library(raster)
 pairs(Imagen[[Desde:Hasta]], main=Título, col="darkgreen")
