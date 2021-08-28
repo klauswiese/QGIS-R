@@ -5,15 +5,29 @@
 ##Y=Field Vector
 ##Tipo=selection punto;línea;punto&línea
 if (Tipo == 0) {
-plot(Vector[[X]], Vector[[Y]], xlab=X, ylab=Y)
+plot(Vector[[X]], 
+     Vector[[Y]], 
+     xlab=X, 
+     ylab=Y)
 box()
-grid(lwd=1, col="black")
+grid(lwd=1, 
+     col="black")
 } else if (Tipo == 1) {
-plot(Vector[[X]], Vector[[Y]], xlab=X, ylab=Y, type="l")
+plot(Vector[[X]], 
+     Vector[[Y]], 
+     xlab=X, 
+     ylab=Y, 
+     type="l")
 box()
-grid(lwd=1, col="black")
+grid(lwd=1, 
+     col="black")
 } else if (Tipo == 2) {
-plot(Vector[[X]], Vector[[Y]], xlab=X, ylab=Y, type="b")
+plot(Vector[[X]], 
+     Vector[[Y]], 
+     xlab=X, 
+     ylab=Y, 
+     type="b")
 box()
-grid(lwd=1, col="black")
+grid(lwd=1, 
+     col="black")
 }
