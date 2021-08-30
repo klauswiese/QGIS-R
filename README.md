@@ -16,7 +16,7 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 | # | Función | Nombre |Fuente | Paquete |
 | :---: | :--- | :--- | :--- | :--- |
-| 1 | `Kmeans` | | |  |
+| 1 | `Kmeans` | | | |
 
 ## Clasificación Supervisada
 
@@ -31,44 +31,44 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## EDA
 
-| # | Función | Nombre |Fuente |
-| :---: | :--- | :--- | :--- | 
-| 1 | `Boxplot` | |
-| 2 | `Perfil Espectral` | | | 
-| 3 | `Sumario de Bandas` | | |
+| # | Función | Nombre |Fuente | Paquete |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | `Boxplot` | | |
+| 2 | `Perfil Espectral` | | | |
+| 3 | `Sumario de Bandas` | | | |
 
 ## Gráficos
 
-| # | Función | Nombre |Fuente |
-| :---: | :--- | :--- | :--- | 
-| 1 | `Histogramas` | |
-| 2 | `Pairs` | | | 
-| 3 | `Pairs Consecutivas` | | |
-| 4 | `Pairs Todas` | |
-| 5 | `Plot Bands` | | | 
-| 6 | `Plot Bands 2` | | |
-| 7 | `Scatterplot` | | |
-| 8 | `Scatterplot 2` | |
-| 9 | `Scatterplot Vector` | | | 
-| 10 | `True Color` | | |
+| # | Función | Nombre |Fuente | Paquete |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | `Histogramas` | | | |
+| 2 | `Pairs` | | | |
+| 3 | `Pairs Consecutivas` | | | |
+| 4 | `Pairs Todas` | | |
+| 5 | `Plot Bands` | | | |
+| 6 | `Plot Bands 2` | | | |
+| 7 | `Scatterplot` | | | |
+| 8 | `Scatterplot 2` | | |
+| 9 | `Scatterplot Vector` | | | |
+| 10 | `True Color` | | | |
 
 ## Índices
 
-| # | Índice | Nombre |Fuente |
-| :---: | :--- | :--- | :--- | 
-| 1 | `MNDWI` | Modified Normalized Difference Water Index | [Xu 2006](https://www.tandfonline.com/doi/abs/10.1080/01431160600589179) |
-| 2 | `NBRI` | Normalized Burned Ratio Index | | 
-| 3 | `NDMI` | Normalized Difference Moisture Index | |
-| 4 | `NDTI` | Normalized Difference Turbidity Index | |
-| 5 | `NDVIre` | Red-Edge Normalized Difference Vegetation Index | |
-| 6 | `NDWI` | Normalized Difference Water Index | [Gao 1996](https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/d/1835/files/2014/06/NDWI-A-Normalized-Difference-Water-Index-for-Remote-Sensing-of-Vegetation-Liquid-Water-From-Space-1ko95nn.pdf) |
+| # | Índice | Nombre |Fuente | Paquete |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | `MNDWI` | Modified Normalized Difference Water Index | [Xu 2006](https://www.tandfonline.com/doi/abs/10.1080/01431160600589179) | |
+| 2 | `NBRI` | Normalized Burned Ratio Index | | |
+| 3 | `NDMI` | Normalized Difference Moisture Index | | |
+| 4 | `NDTI` | Normalized Difference Turbidity Index | | |
+| 5 | `NDVIre` | Red-Edge Normalized Difference Vegetation Index | | |
+| 6 | `NDWI` | Normalized Difference Water Index | [Gao 1996](https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/d/1835/files/2014/06/NDWI-A-Normalized-Difference-Water-Index-for-Remote-Sensing-of-Vegetation-Liquid-Water-From-Space-1ko95nn.pdf) | |
 
 
 ## PCA
 
 ## Umbrales
 
-| # | Función | Nombre |Fuente |
-| :---: | :--- | :--- | :--- | 
-| 1 | `OTSU` | |
-| 2 | `Umbrales` | | | 
+| # | Función | Nombre |Fuente | Paquete |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | `OTSU` | | |
+| 2 | `Umbrales` | | | | 
