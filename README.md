@@ -20,9 +20,9 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 | # | Función | Nombre |Fuente | Paquete |
 | :---: | :--- | :--- | :--- | :--- |
-| 1 | `01 Extracción de Valores` | | [raster](https://cran.r-project.org/web/packages/raster/index.html) |
+| 1 | `01 Extracción de Valores` | | | [raster](https://cran.r-project.org/web/packages/raster/index.html) |
 | 2 | `02 Modelo` | | | randomforest |
-| 3 | `03 Predicción` | | | raster |
+| 3 | `03 Predicción` | | | [raster](https://cran.r-project.org/web/packages/raster/index.html) |
 | 4 | `04 Gráfico` | | | |
 
 ## Composición de Imágenes
