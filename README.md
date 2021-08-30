@@ -14,7 +14,9 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 ## Clasificación No Supervisada
 
-### Kmeans
+| # | Función | Nombre |Fuente | Paquete |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | `Kmeans` | | |  |
 
 ## Clasificación Supervisada
 
