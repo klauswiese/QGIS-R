@@ -35,5 +35,3 @@ ValueTable  <- na.omit(valuetable)
 
 #usos
 Usos <- unique(Vector[[Usos]])
-
-#gráficos
