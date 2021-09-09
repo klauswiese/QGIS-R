@@ -1,4 +1,4 @@
-##CTE534_Umbrales=group
+##Umbrales=group
 ##Imagen=raster
 ##Banda=number 1
 ##Mascara= output raster
