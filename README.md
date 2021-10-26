@@ -41,9 +41,9 @@ Compendio de scripts de R para ejecutarse en QGIS. usando los paquetes raster, t
 
 | # | Función | Nombre |Fuente | Paquete |
 | :---: | :--- | :--- | :--- | :--- |
-| 1 | `Histogramas` | | | |
-| 2 | `Pairs` | | | |
-| 3 | `Pairs Consecutivas` | | | |
+| 1 | `Histogramas` | | | basic |
+| 2 | `Pairs` | | | basic |
+| 3 | `Pairs Consecutivas` | | | basic |
 | 4 | `Pairs Todas` | | |
 | 5 | `Plot Bands` | | | |
 | 6 | `Plot Bands 2` | | | |
