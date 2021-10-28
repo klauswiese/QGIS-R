@@ -12,6 +12,7 @@
 ##Matriz_de_Confusion=output table
 ##showplots
 
+#Extraer valores de imagen según vector
 Salida<-raster::extract(Imagen, Vector, df=TRUE)
 Vector$ID<-row.names(Vector)
 TablaUsos<-merge(Salida, Vector, x.by="ID", by.y="ID")
